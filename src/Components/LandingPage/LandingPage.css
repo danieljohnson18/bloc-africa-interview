@@ -39,7 +39,7 @@
 }
 
 .nav-item .img-fluid {
-  height: 50px;
+  height: 30px;
   filter: invert(16%) sepia(98%) saturate(3074%) hue-rotate(313deg)
     brightness(90%) contrast(104%);
 }
@@ -58,6 +58,12 @@
   margin-left: 0px;
 }
 
+.bloc .funds-data {
+  box-shadow: -1px -1px 15px 0px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -1px -1px 15px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -1px -1px 15px 0px rgba(0, 0, 0, 0.59);
+  border-radius: 20px;
+}
 .row .balance {
   background-color: #cc0e74;
   padding: 10px;
@@ -83,14 +89,23 @@
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.bd-highlight .affya {
+  font-weight: 800;
+  color: #cc0e74;
+}
+
+.bd-highlight .zar {
+  font-weight: 800;
+}
+
 .row .price {
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
 .row .bill {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   font-weight: 600;
 }
@@ -102,7 +117,7 @@
 
 .container-fluid .dropdown {
   text-align: start;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .container-fluid .dropdown-toggle {
@@ -164,11 +179,14 @@
 }
 
 .row .img-fluid {
-  height: 50px;
+  height: 30px;
   filter: invert(16%) sepia(98%) saturate(3074%) hue-rotate(313deg)
     brightness(90%) contrast(104%);
 }
 
+.bloc .options {
+  margin-top: 20px;
+}
 .row .footer-text {
   font-size: 1rem;
   color: #cc0e74;
